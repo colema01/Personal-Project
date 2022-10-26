@@ -2,10 +2,10 @@
  
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #396E94   ;
-  --secondary-color: #E7C24F;
-  --accent1-color: #A43312;
-  --accent2-color: #AABD8C;
+  --primary-color: #467599   ;
+  --secondary-color: #FFFFFF;
+  --accent1-color: #D64045;
+  
  
   /* change the values below to your chosen font(s) */
   --heading-font: "Poppins";
@@ -18,7 +18,7 @@
   --paragraph-color-on-color: white; /* paragraph text on a colored background */
   --paragraph-background-color: #396E94  ;
   --nav-link-color: #396E94;
-  --nav-background-color: #AABD8C;
+  --nav-background-color: white;
   --nav-hover-link-color: white;
   --nav-hover-background-color: #396E94;
 }

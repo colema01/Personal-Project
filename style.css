@@ -80,7 +80,6 @@ footer a:hover {
     margin-left: auto;
     margin-right: auto;
     width: 50%;
-    border: 10px solid black;
     border: 10px solid #A43312;
     transition: transform .5s;
     box-shadow: 5px 5px 10px #6f7364;

@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Roboto:wght@500&display=swap');
+#content {
+    width: 1600px;
+    margin: 0 auto;
+  }
+
+header {
+    background-color: #396E94;
+    display: grid;
+    grid-template-columns: 100%;
+    font-family: poppins;
+    text-align: center;
+    
+  }
+  .logo {
+    width: 80px;
+    height: 80px;
+    margin-top: 10px;
+    margin-left: 5px;
+    z-index: -1;
+  }
+nav{
+    color: white;
+    background-color: #396E94;
+    grid-row-start:1fr;
+}
+
+ nav a:hover {
+    background-color:#A43312;
+    color: whitesmoke;
+    text-decoration: underline;
+  }
+  nav a {
+    text-align: center;
+    color: whitesmoke;
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+  }
+  h1{
+    text-align: center;
+    color: #A43312;
+    font-weight: bold;
+    font-family: poppins;
+  }
+p{
+    text-align: center;
+    font-family: poppins;
+    font-weight: bold;
+}
+footer{
+    background-color: #A43312;
+    padding: 25px 50px;
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    color: whitesmoke;
+    text-align: center;
+    color: #fcfbfb;
+    text-decoration: none;
+    padding: 5px;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+footer a:hover {
+    background-color:#A43312;
+    color: whitesmoke;
+    text-decoration: underline;
+}
+.body{
+    position: relative;
+}
+.grass{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}

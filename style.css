@@ -26,7 +26,6 @@ header {
 nav{
     color: white;
     background-color: #396E94;
-    grid-row-start:1fr;
 }
 
  nav a:hover {
@@ -92,6 +91,7 @@ footer a:hover {
     box-shadow: 5px 5px 10px #6f7364;
     height: auto;
     max-width: 100%;
+<<<<<<< HEAD
     margin-top: 38px;    
 }
 .mlb_teams,.minor_teams{
@@ -112,4 +112,8 @@ h2{
   color: #A43312;
   font-weight: bold;
   font-family: poppins;
+=======
+    margin-top: 38px;
+    
+>>>>>>> e99f932e538fe2df8221b7d2750ea00645fa350a
 }

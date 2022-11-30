@@ -3,14 +3,19 @@
     width: 1600px;
     margin: 0 auto;
   }
-
 header {
-    background-color: #396E94;
-    display: grid;
-    grid-template-columns: 100%;
-    font-family: poppins;
-    text-align: center;
-  }
+  overflow: hidden;
+  position: fixed; 
+  top: 0; 
+  width: 100%; 
+  background-color: #396E94;
+  display: grid;
+  grid-template-columns: 100%;
+  font-family: poppins;
+  text-align: center;
+}
+
+
   .logo {
     width: 80px;
     height: 80px;
@@ -44,6 +49,8 @@ nav{
     color: #A43312;
     font-weight: bold;
     font-family: poppins;
+    margin-top: 15%;
+    
   }
 p{
     text-align: center;
@@ -85,6 +92,24 @@ footer a:hover {
     box-shadow: 5px 5px 10px #6f7364;
     height: auto;
     max-width: 100%;
-    margin-top: 38px;
-    
+    margin-top: 38px;    
+}
+.mlb_teams,.minor_teams{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 10px solid #A43312;
+  transition: transform .5s;
+  box-shadow: 5px 5px 10px #6f7364;
+  height: auto;
+  max-width: 100%;
+  margin-top: 38px;  
+}
+
+h2{
+  text-align: center;
+  color: #A43312;
+  font-weight: bold;
+  font-family: poppins;
 }

@@ -82,19 +82,8 @@ footer a:hover {
 .body{
     position: relative;
 }
-.grass{
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 50%;
-    border: 10px solid #A43312;
-    transition: transform .5s;
-    box-shadow: 5px 5px 10px #6f7364;
-    height: auto;
-    max-width: 100%;
-    margin-top: 38px;    
-}
-.mlb_teams,.minor_teams{
+
+.mlb_teams,.minor_teams,.mlb_logo,.minor_logo,.grass{
   display: block;
   margin-left: auto;
   margin-right: auto;

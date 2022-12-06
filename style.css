@@ -26,7 +26,7 @@ header {
 nav{
     color: white;
     background-color: #396E94;
-    grid-row-start:1fr;
+    
 }
 
  nav a:hover {
